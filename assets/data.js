@@ -276,9 +276,12 @@ window.OUTPUTS = [
     year: 2026,
     date: "2026-10-24",
     note: "",
-    image: "",
-    // paper / code / bibtex 정리 중 — 회색으로 자리만 표시됩니다. 주소가 나오면 따옴표 안만 채우면 됩니다
-    links: { paper: "", code: "", bibtex: "" },
+    image: "images/publications/oh26emnlp_repair.png",
+    links: {
+      paper: "https://arxiv.org/abs/2609.18262",
+      code: "https://github.com/yerimoh/REPAIR",
+      bibtex: "bibtex/Oh-EMNLP26.txt"
+    },
     top10: true
   },
   {
@@ -290,8 +293,12 @@ window.OUTPUTS = [
     year: 2026,
     date: "2026-10-24",
     note: "",
-    image: "",
-    links: { paper: "", code: "", bibtex: "" },
+    image: "images/publications/song26emnlp_multi3ir.png",
+    links: {
+      paper: "https://arxiv.org/abs/2608.30949",
+      code: "https://github.com/seokwon99/Multi3IR",
+      bibtex: "bibtex/Song-EMNLP26.txt"
+    },
     top10: true
   },
   {
@@ -320,8 +327,12 @@ window.OUTPUTS = [
     year: 2026,
     date: "2026-10-24",
     note: "",
-    image: "",
-    links: { paper: "", code: "", bibtex: "" },
+    image: "images/publications/kim26emnlp_streamalign.png",
+    links: {
+      paper: "https://arxiv.org/abs/2609.09719",
+      code: "https://github.com/ishlove77/StreamAlign",
+      bibtex: "bibtex/Kim-EMNLP26_StreamAlign.txt"
+    },
     top10: true
   },
 ];
